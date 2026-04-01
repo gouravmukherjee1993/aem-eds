@@ -37,7 +37,7 @@ function addEventListeners(block) {
  */
 export default function decorate(block) {
 /* This JavaScript makes minor adjustments to the block's DOM */
-
+  console.log('Decorating teaser block');
   /* Common treatments for all options */
   block.querySelector(':scope > div:last-child').classList.add('content');
   block.querySelector('h1,h2,h3,h4,h5,h6').classList.add('title');

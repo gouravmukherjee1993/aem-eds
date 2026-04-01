@@ -5,7 +5,9 @@ header .nav-wrapper {
   z-index: 2;
   position: fixed;
 }
-
+.nav-wrapper {
+    background-color: red !important;
+}
 header nav {
   box-sizing: border-box;
   display: grid;
